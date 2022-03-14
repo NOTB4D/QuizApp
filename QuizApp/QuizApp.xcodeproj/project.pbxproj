@@ -13,6 +13,9 @@
 		B8030D3727DF57C60013AD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8030D3527DF57C60013AD34 /* Main.storyboard */; };
 		B8030D3927DF57C80013AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8030D3827DF57C80013AD34 /* Assets.xcassets */; };
 		B8030D3C27DF57C80013AD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8030D3A27DF57C80013AD34 /* LaunchScreen.storyboard */; };
+		B8030D4527DF591E0013AD34 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4427DF591E0013AD34 /* NetworkService.swift */; };
+		B8030D4727DF5CF60013AD34 /* ClientNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4627DF5CF60013AD34 /* ClientNetworkService.swift */; };
+		B8030D4927DF5D700013AD34 /* QuestionsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B8030D3827DF57C80013AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8030D3B27DF57C80013AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8030D3D27DF57C80013AD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8030D4427DF591E0013AD34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B8030D4627DF5CF60013AD34 /* ClientNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientNetworkService.swift; sourceTree = "<group>"; };
+		B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		B8030D2E27DF57C60013AD34 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				B8030D4327DF58FB0013AD34 /* Network */,
 				B8030D2F27DF57C60013AD34 /* AppDelegate.swift */,
 				B8030D3127DF57C60013AD34 /* SceneDelegate.swift */,
 				B8030D3327DF57C60013AD34 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				B8030D3D27DF57C80013AD34 /* Info.plist */,
 			);
 			path = QuizApp;
+			sourceTree = "<group>";
+		};
+		B8030D4327DF58FB0013AD34 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B8030D4427DF591E0013AD34 /* NetworkService.swift */,
+				B8030D4627DF5CF60013AD34 /* ClientNetworkService.swift */,
+				B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +157,10 @@
 			files = (
 				B8030D3427DF57C60013AD34 /* ViewController.swift in Sources */,
 				B8030D3027DF57C60013AD34 /* AppDelegate.swift in Sources */,
+				B8030D4527DF591E0013AD34 /* NetworkService.swift in Sources */,
+				B8030D4927DF5D700013AD34 /* QuestionsDTO.swift in Sources */,
 				B8030D3227DF57C60013AD34 /* SceneDelegate.swift in Sources */,
+				B8030D4727DF5CF60013AD34 /* ClientNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
