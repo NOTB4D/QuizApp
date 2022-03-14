@@ -16,6 +16,10 @@
 		B8030D4527DF591E0013AD34 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4427DF591E0013AD34 /* NetworkService.swift */; };
 		B8030D4727DF5CF60013AD34 /* ClientNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4627DF5CF60013AD34 /* ClientNetworkService.swift */; };
 		B8030D4927DF5D700013AD34 /* QuestionsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */; };
+		B8030D4C27DF67550013AD34 /* QuizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4B27DF67550013AD34 /* QuizeViewModel.swift */; };
+		B8030D4F27DF67FF0013AD34 /* QuizeContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D4E27DF67FF0013AD34 /* QuizeContracts.swift */; };
+		B8030D5127DF6F7E0013AD34 /* QuizePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D5027DF6F7E0013AD34 /* QuizePresentation.swift */; };
+		B8030D5327DF73350013AD34 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030D5227DF73350013AD34 /* AppContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		B8030D4427DF591E0013AD34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B8030D4627DF5CF60013AD34 /* ClientNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientNetworkService.swift; sourceTree = "<group>"; };
 		B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsDTO.swift; sourceTree = "<group>"; };
+		B8030D4B27DF67550013AD34 /* QuizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeViewModel.swift; sourceTree = "<group>"; };
+		B8030D4E27DF67FF0013AD34 /* QuizeContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeContracts.swift; sourceTree = "<group>"; };
+		B8030D5027DF6F7E0013AD34 /* QuizePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizePresentation.swift; sourceTree = "<group>"; };
+		B8030D5227DF73350013AD34 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,8 @@
 		B8030D2E27DF57C60013AD34 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				B8030D4D27DF67CA0013AD34 /* Controller */,
+				B8030D4A27DF673C0013AD34 /* ViewModel */,
 				B8030D4327DF58FB0013AD34 /* Network */,
 				B8030D2F27DF57C60013AD34 /* AppDelegate.swift */,
 				B8030D3127DF57C60013AD34 /* SceneDelegate.swift */,
@@ -70,6 +80,7 @@
 				B8030D3827DF57C80013AD34 /* Assets.xcassets */,
 				B8030D3A27DF57C80013AD34 /* LaunchScreen.storyboard */,
 				B8030D3D27DF57C80013AD34 /* Info.plist */,
+				B8030D5227DF73350013AD34 /* AppContainer.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -82,6 +93,23 @@
 				B8030D4827DF5D700013AD34 /* QuestionsDTO.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B8030D4A27DF673C0013AD34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B8030D4B27DF67550013AD34 /* QuizeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B8030D4D27DF67CA0013AD34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8030D4E27DF67FF0013AD34 /* QuizeContracts.swift */,
+				B8030D5027DF6F7E0013AD34 /* QuizePresentation.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8030D5127DF6F7E0013AD34 /* QuizePresentation.swift in Sources */,
 				B8030D3427DF57C60013AD34 /* ViewController.swift in Sources */,
 				B8030D3027DF57C60013AD34 /* AppDelegate.swift in Sources */,
 				B8030D4527DF591E0013AD34 /* NetworkService.swift in Sources */,
+				B8030D4C27DF67550013AD34 /* QuizeViewModel.swift in Sources */,
 				B8030D4927DF5D700013AD34 /* QuestionsDTO.swift in Sources */,
 				B8030D3227DF57C60013AD34 /* SceneDelegate.swift in Sources */,
+				B8030D5327DF73350013AD34 /* AppContainer.swift in Sources */,
+				B8030D4F27DF67FF0013AD34 /* QuizeContracts.swift in Sources */,
 				B8030D4727DF5CF60013AD34 /* ClientNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
