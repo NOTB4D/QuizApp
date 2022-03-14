@@ -18,7 +18,7 @@ class ClientNetworkService: ClientNetworkServiceProtocol {
         case endpoint = "quiz"
     }
     
-    private let networkService = NetworkServiceProtocol = NetworkService()
+    private let networkService : NetworkServiceProtocol = NetworkService()
     
     func questions(completion: @escaping (QuestionsDTO?, NetworkError?) -> Void) {
         let urlString = Endpoints.endpoint.rawValue
